@@ -30,7 +30,6 @@ function About({ }: Props) {
                 </h4>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae repellat cumque reiciendis omnis? Molestias rerum neque numquam id. Minus ratione laboriosam excepturi sunt. Iusto rerum officia at, quasi iure earum excepturi</p>
             </div>
-            <Link href="/">Top</Link>
         </div>
     )
 }

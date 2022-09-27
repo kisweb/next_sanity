@@ -15,7 +15,7 @@ function Hero({ }: Props) {
   })
 
   return (
-    <div className="h-screen flex flex-col space-y-8 items-center justify-center text-center overflow-hidden">
+    <div className="h-screen min-w-4xl flex flex-col space-y-8 items-center justify-center text-center overflow-hidden">
 
       <BackgroundCircles />
       <Image
@@ -26,14 +26,14 @@ function Hero({ }: Props) {
         className="relative mx-auto rounded-full object-cover"
       />
       <div className="z-20">
-        <h2 className="text-sm uppercase text-gray-400 pb-2 tracking-[12px]">Enseignant en retrait</h2>
-        <h1 className="text-3xl lg:text-5xl text-semibold px-10">
+        <h2 className="text-sm uppercase text-gray-400 pb-2 lg:tracking-[12px] md:tracking-[8px]">Enseignant en retrait</h2>
+        <h1 className="sm:text-3xl md:text-3xl lg:text-5xl text-semibold px-10">
           <span className="mr-3">{text}</span>
           <Cursor cursorColor='#F7A88A' />
         </h1>
 
       </div>
-      <div className="z-30 bg-[#404040] rounded-full p-8 mt-6">
+      <div className="z-30  mt-4">
         <Link href="#about">
           <button className="heroButton">About</button>
         </Link>
