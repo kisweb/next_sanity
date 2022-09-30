@@ -6,7 +6,7 @@ type Props = {}
 
 function ExperienceCard({}: Props) {
   return (
-    <article className="flex flex-col rounded-lg items-center space-y-5 flex-shrink-0 snap-center bg-[#292929] p-10 mt-24">
+    <article className="flex flex-col rounded-lg items-center space-y-5 flex-shrink-0 w-[700px] md:w-[700px] xl:w-[1000px] snap-center bg-[#292929] p-5 mt-20">
         <motion.img 
         initial={{ y:-100, opacity:0 }}
         transition={{ duration: 1.2 }}
